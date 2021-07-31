@@ -27,3 +27,24 @@ int main() {
   std::cout << std::endl;
   return 0;
 }
+
+long Factorial(int no){
+
+  for(r=1; r <= no; ++r)
+   { int n;
+     n = n *r;
+   }
+   
+}
+
+long nCr(int n, int r){
+ 
+
+ long Factorial(int no);
+ 
+int nCr(int n, int r)
+{ 
+  no = n;
+    return Factorial(n) / (Factorial(r) * Factorial(n - r));
+}
+}
